@@ -1,8 +1,24 @@
 aid: beechwood-data-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beechwood-data-systems.png
 name: Beechwood Data Systems
-description: Beechwood Data Systems is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Beechwood Data Systems is an IT and software services company historically focused on
+  the telecommunications sector, providing systems that enable telecom companies to exchange and
+  integrate data. It was surfaced as a portfolio company associated with Insight Partners and added
+  to the API Evangelist network as a lead. The enrichment pipeline found no live developer portal,
+  documentation host, public API, or machine-readable API specification for this provider, so no API
+  artifacts could be searched, generated, or derived without fabrication. This profile remains an
+  identity-only stub pending a confirmed active developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/beechwood-data-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data
+- Telecommunications
+- Systems Integration
+- Enterprise Software
+- Data Exchange
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
